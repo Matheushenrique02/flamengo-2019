@@ -147,8 +147,8 @@ export default function Home() {
 
       {/* Campo usando Grid */}
       <div className="campo relative
-      w-[90vw] sm:w-[500px] md:w-[650px] lg:w-[750px] xl:w-[850px]
-      h-[65vh] sm:h-[550px] md:h-[600px]
+      w-[90vw] sm:w-[500px] md:w-[500px] lg:w-[500px] xl:w-[500px]
+      h-[65vh] sm:h-[500px] md:h-[500px]
       rounded-xl border-4 border-green-900
       bg-[url('/imagens/campo.svg')] bg-cover bg-center
       grid grid-rows-5 grid-cols-4
