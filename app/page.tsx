@@ -131,7 +131,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[url('/imagens/fundo.webp')] bg-cover bg-center p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[url('/imagens/fundo.webp')] bg-cover bg-center p-4 sm:p-6">
       <div className="flex items-center justify-between w-full max-w-3xl mb-4">
         <div className="flex justify-center m-[auto] w-[400px] flex-wrap ">
           <h3 className="text-2xl font-bold text-white mr-[10px]">Monte o Flamengo de 2019</h3>
@@ -146,7 +146,13 @@ export default function Home() {
       </div>
 
       {/* Campo usando Grid */}
-      <div className="campo relative w-[400px] max-w-3xl h-[600px] rounded-xl border-4 bg-[url('/imagens/campo.svg')] bg-cover bg-center border-green-900 grid grid-rows-5 grid-cols-4 gap-4 p-4 sm:h-[500px]">
+      <div className="campo relative
+      w-[90vw] sm:w-[500px] md:w-[650px] lg:w-[750px] xl:w-[850px]
+      h-[65vh] sm:h-[550px] md:h-[600px]
+      rounded-xl border-4 border-green-900
+      bg-[url('/imagens/campo.svg')] bg-cover bg-center
+      grid grid-rows-5 grid-cols-4
+      gap-2 sm:gap-4 p-3 sm:p-4">
         {/* Goleiro */}
         <div className="row-start-1 col-start-2 col-span-2 m-[-10px]" >{renderPosicao(0)}</div>
 
